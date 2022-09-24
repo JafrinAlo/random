@@ -12,50 +12,30 @@
                     You're logged in!
                 </div> --}}
                 <form>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                      </div>
-                      <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress">Address</label>
-                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                    </div>
-                    <div class="form-group">
-                      <label for="inputAddress2">Address 2</label>
-                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                    </div>
-                    <div class="form-row">
-                      <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
-                      </div>
-                      <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
-                        <select id="inputState" class="form-control">
-                          <option selected>Choose...</option>
-                          <option>...</option>
+                    <br>
+                    <label for="cars">Choose a day</label>
+
+                        <select name="day" id="day">
+                            <option value="sunday">Sunday</option>
+                            <option value="monday">Monday</option>
+                            <option value="tuesday">Tuesday</option>
+                            <option value="wednesday">Wednesday</option>
+                            <option value="thursday">Thursday</option>
                         </select>
-                      </div>
-                      <div class="form-group col-md-2">
-                        <label for="inputZip">Zip</label>
-                        <input type="text" class="form-control" id="inputZip">
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                          Check me out
-                        </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Sign in</button>
+<br>
+                        <p>Meal Type</p>
+                                <input type="radio" id="breakfast" name="meal_time" value="breakfast">
+                                <label for="lunch">Breakfast</label><br>
+                                <input type="radio" id="lunch" name="meal_time" value="lunch">
+                                <label for="lunch">Lunch</label><br>
+<br>
+                    <label for="date">Select date:</label><br>
+                    <input type="date" id="date" name="date" value="date"><br>
+                    <br><label for="option">Choosen option from menu:</label><br>
+                    <input type="text" id="option" name="option" ><br>
+                   <br> <label for="meal_number">Number of meals you want to request:</label><br>
+                    <input type="text" id="option" name="number of meals" value="1" >
+                    <br><br><input type="submit" value="submit" style="border-style:solid; border-color:green;">
                   </form>
                     </div>
                     
